@@ -20,7 +20,7 @@ def primos(lista_numeros):
                 numeros_primos.append(numero)
     return numeros_primos
 
-numeros_aleatorios = [random.randint(1, 100) for i in range(10)]
+numeros_aleatorios = [random.randint(1, 50) for i in range(10)]
 print("Números aleatorios generados:", numeros_aleatorios)
 
 maximo = maximo(numeros_aleatorios)
