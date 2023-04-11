@@ -20,7 +20,7 @@ while True:
     tarifa_iva = float(dict[codigo_producto][1])
     valor_base = (valor_neto * (1 + tarifa_iva))
 
-    print(f"El valor del IVA correspondiente (19%) es: {tarifa_iva:.2f}")
+    print(f"El valor del IVA correspondiente es: {tarifa_iva:.2f}")
     print(f"El valor base del producto es: {valor_base:.2f}")
 
 print("Programa terminado")
