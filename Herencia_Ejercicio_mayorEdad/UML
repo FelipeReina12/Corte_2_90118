@@ -1,0 +1,16 @@
+Ciudadano
+_Nombre: str
+_Cedula: int
+_Edad: int
++ Ciudadano ()
++getNombre (): str
++getCedula (): int
++getEdad(): int
+
++setNombre(nombre: str)
++setCedula(cedula: int)
++setEdad(edad: int)
+
+-EsMayorDeEdad(edad): mayorEdad
++getEsMayorDeEdad(): str
+
